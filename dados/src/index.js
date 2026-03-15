@@ -1,3 +1,5 @@
+require("./server");
+
 import {
   downloadContentFromMessage,
   generateWAMessageFromContent,
