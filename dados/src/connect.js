@@ -1,3 +1,5 @@
+require("./server");
+
 import a, { useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, makeCacheableSignalKeyStore } from 'whaileys';
 const makeWASocket = a.default;
 import { Boom } from '@hapi/boom';
